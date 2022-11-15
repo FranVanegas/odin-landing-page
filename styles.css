@@ -120,8 +120,53 @@ color: aliceblue;
 }
 
 .container.white{
-    background-color: black;
-    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0px;
 }
 
+.section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
 
+.section > p{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 24px;
+    
+
+}
+
+.cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card{
+    flex: 1 1 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.cuadrado{
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 30px;
+    border: solid blue;
+    margin-bottom: 20px;
+}

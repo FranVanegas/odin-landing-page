@@ -1,0 +1,127 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    flex: 1 1 auto;
+    background-color:#1f2937 ;
+    max-width: 1200px;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color:#1f2937 ;
+    align-items: center;
+
+
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+
+
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.container{
+    background-color: #1f2937;
+
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 15px;
+    column-gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    
+}
+
+.left-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto;
+    max-width: 600px;
+    gap: 16px;
+    
+}
+
+.left-column p{
+    color: aliceblue;
+    
+}
+
+.left-column h1{
+color: aliceblue;
+}
+
+.left-column button{
+    align-self: flex-start;
+    padding: 16px;
+    width: 160px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.right-column{
+    flex: initial;
+}
+
+
+.right-column img{
+    /*object-fit: cover;*/
+    min-width: 0;
+    width: 100%;
+    height: auto;
+    flex: 1;
+
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.container.white{
+    background-color: black;
+    height: 100px;
+}
+
+
